@@ -8,6 +8,7 @@ authors = ["Mark Steward <marksteward@gmail.com>"]
 python = "^3.8"
 aiortc = "^0.9.27"
 aiohttp = "^3.6.2"
+aioice = {git = "https://github.com/marksteward/aioice"}
 
 [tool.poetry.dev-dependencies]
 

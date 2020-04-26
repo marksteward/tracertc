@@ -27,6 +27,10 @@ version = "0.6.18"
 [package.dependencies]
 netifaces = "*"
 
+[package.source]
+reference = "86b3f44cb50e3d839edde005a5e22b511df11b57"
+type = "git"
+url = "https://github.com/marksteward/aioice"
 [[package]]
 category = "main"
 description = "An implementation of WebRTC and ORTC"
@@ -192,7 +196,7 @@ idna = ">=2.0"
 multidict = ">=4.0"
 
 [metadata]
-content-hash = "19c8e806a22c6087abdf943b7790c407418432bd597de8bbed30b5361b04de99"
+content-hash = "6885b2a4a78fdb86e59de16d322a5556639f3a6212c2d270a7db18dbd290a2a4"
 python-versions = "^3.8"
 
 [metadata.files]
@@ -210,10 +214,7 @@ aiohttp = [
     {file = "aiohttp-3.6.2-py3-none-any.whl", hash = "sha256:460bd4237d2dbecc3b5ed57e122992f60188afe46e7319116da5eb8a9dfedba4"},
     {file = "aiohttp-3.6.2.tar.gz", hash = "sha256:259ab809ff0727d0e834ac5e8a283dc5e3e0ecc30c4d80b3cd17a4139ce1f326"},
 ]
-aioice = [
-    {file = "aioice-0.6.18-py3-none-any.whl", hash = "sha256:c6ab906e4c71b91d89daf0bb161ed1b3cf0e8e9803f47cb7fe2ff2c942a0e428"},
-    {file = "aioice-0.6.18.tar.gz", hash = "sha256:962192aa29c2bec1f1fdd86b58a431efe355394c86fad09beddc7094cd3d09ef"},
-]
+aioice = []
 aiortc = [
     {file = "aiortc-0.9.27.tar.gz", hash = "sha256:68c0aad223de18fa778c49273adcc4527f651af8dd21e8944d5880b73136c21d"},
 ]
